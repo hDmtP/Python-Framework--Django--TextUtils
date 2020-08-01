@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texTutils</title>
+</head>
+<body>
+   <h1>Welcome to the Text Analyzer. Enter your text below.</h1>
+   <form action='/analyze' method='get'>
+    <textarea  name="text" spellcheck="false" style="margin: 0px; width: 1324px; height: 236px;"></textarea>
+    <br>
+    <input type="checkbox" name="removepunc">Remove Punctuations <br>
+    <input type="checkbox" name="fullcaps">CAPITALIZE letters <br>
+    <input type="checkbox" name="nlremover">New line Remover <br>
+    <input type="checkbox" name="spremover">Space Remover <br>
+    <input type="checkbox" name="countwords">Count Words <br>
+    <button type='submit'>Analyze Text</button>
+   </form>
+</body>
+</html>
